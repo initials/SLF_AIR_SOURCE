@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<level>
+  
+  
+  
+  
+  <width>
+    
+    480
+  
+  </width>
+  
+  
+  
+  
+  <height>
+    
+    320
+  
+  </height>
+  
+  
+  
+  
+  <solids>
+    
+    
+    
+    
+    <rect h="20" w="480" x="0" y="0"/>
+    
+    
+    
+    
+    <rect h="300" w="10" x="0" y="20"/>
+    
+    
+    
+    
+    <rect h="100" w="470" x="10" y="220"/>
+    
+    
+    
+    
+    <rect h="200" w="10" x="470" y="20"/>
+    
+    
+  
+  
+  </solids>
+  
+  
+  
+  
+  <BGLayer1>
+    
+    
+    
+    
+    <level1_shelfTile height="160" scrollFactor="0.2" width="160" x="10" y="60"/>
+    
+    
+    
+    
+    <level1_windows height="54" scrollFactor="0.2" width="180" x="270" y="90"/>
+    
+    
+  
+  
+  </BGLayer1>
+  
+  
+  
+  
+  <BGLayer2>
+    
+    
+    
+    
+    <sugarBagsAndCrates scrollFactor="0.2" x="330" y="90"/>
+    
+    
+  
+  
+  </BGLayer2>
+  
+  
+  
+  
+  <BGLayer3>
+    
+    
+    
+    
+    <palettes scrollFactor="0.2" x="110" y="180"/>
+    
+    
+    
+    
+    <sodaPack scrollFactor="0.2" x="60" y="200"/>
+    
+    
+  
+  
+  </BGLayer3>
+  
+  
+  
+  
+  <characters>
+    
+    
+    
+    
+    <player andreInitialFlip="0" followHeight="0" followWidth="0" levelName="new level" liselotInitialFlip="1" movementType="1" speed="40" startsFirst="1" x="210" y="180">
+      
+      
+      
+      
+      <node x="240" y="170"/>
+      
+      
+    
+    
+    </player>
+    
+    
+    
+    
+    <liselot movementType="1" speed="40" x="260" y="180">
+      
+      
+      
+      
+      <node x="330" y="170"/>
+      
+      
+    
+    
+    </liselot>
+    
+    
+  
+  
+  </characters>
+  
+  
+
+
+</level>

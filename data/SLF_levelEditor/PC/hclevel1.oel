@@ -1,0 +1,532 @@
+<?xml version="1.0" ?>
+<level>
+  
+  
+  
+  
+  
+  
+  <width>
+    
+    
+    1800
+  
+  
+  </width>
+  
+  
+  
+  
+  
+  
+  <height>
+    
+    
+    840
+  
+  
+  </height>
+  
+  
+  
+  
+  
+  
+  <solids>
+    
+    
+    
+    
+    
+    
+    <rect h="840" w="10" x="0" y="0"/>
+    
+    
+    
+    
+    
+    
+    <rect h="110" w="560" x="10" y="290"/>
+    
+    
+    
+    
+    
+    
+    <rect h="300" w="1790" x="10" y="540"/>
+    
+    
+    
+    
+    
+    
+    <rect h="80" w="60" x="220" y="400"/>
+    
+    
+    
+    
+    
+    
+    <rect h="130" w="50" x="260" y="160"/>
+    
+    
+    
+    
+    
+    
+    <rect h="110" w="230" x="570" y="340"/>
+    
+    
+    
+    
+    
+    
+    <rect h="60" w="30" x="770" y="250"/>
+    
+    
+    
+    
+    
+    
+    <rect h="120" w="850" x="950" y="420"/>
+    
+    
+    
+    
+    
+    
+    <rect h="420" w="10" x="1790" y="0"/>
+    
+    
+    
+  
+  
+  
+  </solids>
+  
+  
+  
+  
+  
+  
+  <extraPlatforms>
+    
+    
+    
+    
+    
+    
+    <LargeCrate x="210" y="480"/>
+    
+    
+    
+    
+    
+    
+    <level1_specialBlock animated="0" movementType="1" speed="40" x="450" y="500"/>
+    
+    
+    
+    
+    
+    
+    <spike0 height="10" width="60" x="1250" y="410"/>
+    
+    
+    
+    
+    
+    
+    <spike2 height="10" width="210" x="10" y="400"/>
+    
+    
+    
+    
+    
+    
+    <spike2 height="10" width="280" x="280" y="400"/>
+    
+    
+    
+    
+    
+    
+    <spike2 height="10" width="230" x="570" y="450"/>
+    
+    
+    
+    
+    
+    
+    <spike0 height="10" width="10" x="280" y="150"/>
+    
+    
+    
+    
+    
+    
+    <spike0 height="10" width="10" x="790" y="240"/>
+    
+    
+    
+    
+    
+    
+    <spike0 height="10" width="70" x="1000" y="410"/>
+    
+    
+    
+    
+    
+    
+    <spike0 height="10" width="40" x="530" y="280"/>
+    
+    
+    
+    
+    
+    
+    <spike1 height="50" width="10" x="570" y="290"/>
+    
+    
+    
+    
+    
+    
+    <spike1 height="70" width="10" x="280" y="410"/>
+    
+    
+    
+    
+    
+    
+    <spike1 height="110" width="10" x="800" y="340"/>
+    
+    
+    
+    
+    
+    
+    <spike1 height="60" width="10" x="10" y="410"/>
+    
+    
+    
+    
+    
+    
+    <spike1 height="110" width="10" x="310" y="180"/>
+    
+    
+    
+    
+    
+    
+    <spike3 height="110" width="10" x="940" y="430"/>
+    
+    
+    
+    
+    
+    
+    <spike3 height="40" width="10" x="440" y="500"/>
+    
+    
+    
+    
+    
+    
+    <spike1 height="40" width="10" x="490" y="500"/>
+    
+    
+    
+    
+    
+    
+    <helpBox helpString="Welcome to the hardcore levels." type="0" x="120" y="480"/>
+    
+    
+    
+  
+  
+  
+  </extraPlatforms>
+  
+  
+  
+  
+  
+  
+  <movingPlatforms>
+    
+    
+    
+    
+    
+    
+    <level1_specialPlatformSmall animated="1" movementType="5" speed="40" x="810" y="290">
+      
+      
+      
+      
+      
+      
+      <node x="910" y="290"/>
+      
+      
+      
+    
+    
+    
+    </level1_specialPlatformSmall>
+    
+    
+    
+  
+  
+  
+  </movingPlatforms>
+  
+  
+  
+  
+  
+  
+  <BGLayer1>
+    
+    
+    
+    
+    
+    
+    <level1_windows height="54" scrollFactor="0.1" width="240" x="20" y="190"/>
+    
+    
+    
+    
+    
+    
+    <level1_windows height="54" scrollFactor="0.1" width="300" x="310" y="270"/>
+    
+    
+    
+    
+    
+    
+    <level1_shelfTile height="640" scrollFactor="0.2" width="480" x="0" y="0"/>
+    
+    
+    
+    
+    
+    
+    <level1_shelfTile height="630" scrollFactor="0.3" width="480" x="560" y="0"/>
+    
+    
+    
+  
+  
+  
+  </BGLayer1>
+  
+  
+  
+  
+  
+  
+  <BGLayer2>
+    
+    
+    
+    
+    
+    
+    <sugarBagsAndCrates scrollFactor="0.6" x="590" y="410"/>
+    
+    
+    
+    
+    
+    
+    <cratesBox scrollFactor="0.95" x="1060" y="240"/>
+    
+    
+    
+    
+    
+    
+    <sugarBags scrollFactor="0.8" x="190" y="250"/>
+    
+    
+    
+  
+  
+  
+  </BGLayer2>
+  
+  
+  
+  
+  
+  
+  <BGLayer3>
+    
+    
+    
+    
+    
+    
+    <sugarBags scrollFactor="0.2" x="330" y="250"/>
+    
+    
+    
+    
+    
+    
+    <palettes scrollFactor="0.2" x="1450" y="380"/>
+    
+    
+    
+    
+    
+    
+    <sugarBags scrollFactor="0.2" x="320" y="500"/>
+    
+    
+    
+    
+    
+    
+    <sodaPack scrollFactor="0.2" x="650" y="320"/>
+    
+    
+    
+  
+  
+  
+  </BGLayer3>
+  
+  
+  
+  
+  
+  
+  <objects>
+    
+    
+    
+    
+    
+    
+    <L1_SmallCrate width="32" x="702" y="317"/>
+    
+    
+    
+    
+    
+    
+    <exit nextLevel="2" x="1717" y="330"/>
+    
+    
+    
+    
+    
+    
+    <smallSugarBag width="22" x="1269" y="330"/>
+    
+    
+    
+    
+    
+    
+    <Bottle width="12" x="979" y="164"/>
+    
+    
+    
+  
+  
+  
+  </objects>
+  
+  
+  
+  
+  
+  
+  <characters>
+    
+    
+    
+    
+    
+    
+    <liselot movementType="1" speed="40" talkString="Just say yes." x="20" y="240">
+      
+      
+      
+      
+      
+      
+      <node x="70" y="250"/>
+      
+      
+      
+    
+    
+    
+    </liselot>
+    
+    
+    
+    
+    
+    
+    <player andreInitialFlip="0" followHeight="0" followWidth="0" levelName="Tutorial" liselotInitialFlip="0" movementType="1" speed="40" startsFirst="1" talkString="The bicycle store and repair shop we owned in Malang was wonderful." x="20" y="490">
+      
+      
+      
+      
+      
+      
+      <node x="60" y="490"/>
+      
+      
+      
+    
+    
+    
+    </player>
+    
+    
+    
+    
+    
+    
+    <worker movementType="1" speed="160" talkString="I would work thanklessly to end human misery, but that doesn't make any money." x="1310" y="380">
+      
+      
+      
+      
+      
+      
+      <node x="1680" y="380"/>
+      
+      
+      
+    
+    
+    
+    </worker>
+    
+    
+    
+  
+  
+  
+  </characters>
+  
+  
+  
+
+
+
+</level>

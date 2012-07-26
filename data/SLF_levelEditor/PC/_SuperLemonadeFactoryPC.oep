@@ -1,0 +1,446 @@
+<project>
+	<name>Super Lemonade Factory v0.3 PC</name>
+	<settings>
+		<defaultWidth>960</defaultWidth>
+		<defaultHeight>640</defaultHeight>
+		<minWidth>480</minWidth>
+		<minHeight>320</minHeight>
+		<maxWidth>5000</maxWidth>
+		<maxHeight>3200</maxHeight>
+		<bgColor>0xdedbc3</bgColor>
+	</settings>
+
+	<objects>
+
+		<!-- Characters -->
+
+		<object name="worker" image="resource/char_standins/worker.png" width="38" height="40" originX="0" originY="0" limit="6">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<string name="talkString" default="Grumble." maxChars="400" />
+
+			</values>
+			<nodes drawObject="true" limit="1" lineMode="1"/>
+		</object>
+
+    		<object height="50" image="resource//char_standins//army.png" name="army" originX="0" originY="0" width="28">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<string name="talkString" default="Attention." maxChars="400" />
+
+			</values>
+			<nodes drawObject="true" limit="1" lineMode="1"/>
+		</object>
+
+    		<object height="50" image="resource//char_standins//chef.png" name="chef" originX="0" originY="0" width="30">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />				
+				<number name="movementType" min="0" max="200" default="1" />
+				<string name="talkString" default="Hey buddy." maxChars="400" />
+
+			</values>
+			<nodes drawObject="true" limit="1" lineMode="1"/>
+		</object>
+
+    		<object height="40" image="resource//char_standins//inspector.png" name="inspector" originX="0" originY="0" width="24">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<string name="talkString" default="Paperwork." maxChars="400" />
+
+			</values>
+			<nodes drawObject="true" limit="1" lineMode="1"/>
+		</object>
+
+    		<object height="50" image="resource//char_standins//liselot.png" name="liselot" originX="0" originY="0" width="20">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<string name="talkString" default="Just say yes." maxChars="400" />
+
+			</values>
+			<nodes drawObject="true" limit="1" lineMode="1"/>
+		</object>
+
+    		<object height="50" image="resource//char_standins//player.png" name="player" originX="0" originY="0" width="18" limit="1">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="startsFirst" min="0" max="1" default="1" />
+				<string name="levelName" default="new level" maxChars="50" />
+				<number name="andreInitialFlip" min="0" max="1" default="0" />
+				<number name="liselotInitialFlip" min="0" max="1" default="0" />
+				<number name="followWidth" min="0" max="10000" default="0" />
+				<number name="followHeight" min="0" max="10000" default="0" />
+				<string name="talkString" default="Family is all." maxChars="400" />
+
+
+
+			</values>
+			<nodes drawObject="true" limit="1" lineMode="1"/>
+		</object>
+
+
+		<!-- General Items -->
+		<object name="Bottle" image="resource/bottle.png" width="12" height="26" originX="0" originY="0" limit="1" resizableX="true" tile="true" />
+		<object name="L1_SmallCrate" image="resource/pickups/smallCrate.png" width="32" height="23" originX="0" originY="0" limit="10" resizableX="true" tile="true"  />
+		<object name="exit" image="resource/exit.png" width="35" height="90" originX="0" originY="0" limit="4">
+			<values>
+				<number name="nextLevel" min="0" max="200" default="2"/>
+			</values>
+		</object>
+		
+		<!-- Level 1 - Warehouse -->
+		<!-- Level 1 - Warehouse blocks -->
+
+		<object name="level1_specialBlock" image="resource/level1/level1_specialBlock.png" width="40" height="40" originX="0" originY="0">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="0" />
+
+			</values>
+			<nodes drawObject="true" lineMode="1" limit="10"/>
+		</object>
+		
+		<object name="level1_specialPlatform" image="resource/level1/level1_specialPlatform.png" width="100" height="20" originX="0" originY="0">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="0" />
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+    		<object height="20" image="resource//level1/level1_specialPlatformSmall.png" name="level1_specialPlatformSmall" originX="0" originY="0" width="40">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />				
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="1" />
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+		
+		<!-- Level 1 - BG -->
+
+		<object name="LargeCrate" image="resource/level1/LargeCrate.png" width="80" height="60" originX="0" originY="0" limit="10"/>
+		<object name="smallSugarBag" image="resource/pickups/smallSugarBag.png" width="22" height="25" originX="0" originY="0" resizableX="true" tile="true"/>
+		<object name="cratesBox" image="resource/level1/cratesBox.png" width="184" height="180" originX="0" originY="0" limit="10">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+		<object name="level1_windows" image="resource/level1/level1_windows.png" width="60" height="54" originX="0" originY="0" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+		<object name="palettes" image="resource/level1/palettes.png" width="65" height="40" originX="0" originY="0">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+		<object name="L1_Shelf" image="resource/level1/L1_Shelf.png" width="210" height="320" originX="0" originY="0" >
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+		<object name="level1_shelfTile" image="resource/level1/level1_shelfTile.png" width="80" height="80" originX="0" originY="0"  resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+		<object name="sodaPack" image="resource/level1/sodaPack.png" width="38" height="20" originX="0" originY="0">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+		<object name="sugarBags" image="resource/level1/sugarBags.png" width="82" height="40" originX="0" originY="0">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+		<object name="sugarBagsAndCrates" image="resource/level1/sugarBagsAndCrates.png" width="135" height="130" originX="0" originY="0">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+		<object name="noticeBoard" image="resource/level1/noticeBoard.png" width="32" height="27" originX="0" originY="0">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+
+		<object name="spike0" image="resource/level1/spike0.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="spike1" image="resource/level1/spike1.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="spike2" image="resource/level1/spike2.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="spike3" image="resource/level1/spike3.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+
+
+		<!-- Level 2 - Factory -->
+
+		<object name="level2_window" image="resource/level2/level2_window.png" width="50" height="50" originX="0" originY="0" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+		<object name="level2_chainTile" image="resource/level2/level2_chainTile.png" width="12" height="13" originX="0" originY="0" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="71" image="resource//level2/level2_FMG3.png" name="level2_FMG3" originX="0" originY="0" width="107">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="178" image="resource//level2/level2_MG2.png" name="level2_MG2" originX="0" originY="0" width="40">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+
+   		<object height="40" image="resource//level2/level2_greenPipe.png" name="level2_greenPipe" originX="0" originY="0" width="20" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="30" image="resource//level2/level2_metalPipe.png" name="level2_metalPipe" originX="0" originY="0" width="30" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="187" image="resource//level2/level2_tank.png" name="level2_tank" originX="0" originY="0" width="100" >
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+    		<object height="70" image="resource//level2/level2_pipe1.png" name="level2_pipe1" originX="0" originY="0" width="70" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+
+
+    		<object height="40" image="resource//level2/level2_specialBlock.png" name="level2_specialBlock" originX="0" originY="0" width="40">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="0" />
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+
+    		<object height="20" image="resource//level2/level2_specialPlatform.png" name="level2_specialPlatform" originX="0" originY="0" width="100">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />				
+				<number name="movementType" min="0" max="200" default="1" />				
+				<number name="animated" min="0" max="200" default="0" />
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+    		<object height="20" image="resource//level2/level2_specialPlatformSmall.png" name="level2_specialPlatformSmall" originX="0" originY="0" width="40">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />				
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="1" />
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+
+
+
+    		<object height="20" image="resource//level2/level2_braceLeft.png" name="level2_braceLeft" originX="0" originY="0" width="20"/>
+    		<object height="20" image="resource//level2/level2_braceRight.png" name="level2_braceRight" originX="0" originY="0" width="20"/>
+
+		<object name="level2_spike0" image="resource/level2/level2_spike0.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="level2_spike1" image="resource/level2/level2_spike1.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="level2_spike2" image="resource/level2/level2_spike2.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="level2_spike3" image="resource/level2/level2_spike3.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+
+
+		<!-------------------------->
+		<!--                      -->
+		<!-- Level 3 - Management -->
+		<!--                      -->
+		<!-------------------------->
+
+
+
+    		<object height="320" image="resource//level3/level3_window.png" name="level3_window" originX="0" originY="0" width="320" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="238" image="resource//level3/level3_cloud.png" name="level3_cloud" originX="0" originY="0" width="565">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="320" image="resource//level3/level3_MG_pylon.png" name="level3_MG_pylon" originX="0" originY="0" width="24">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="20" image="resource//level3/level3_specialPlatformSmall.png" name="level3_specialPlatformSmall" originX="0" originY="0" width="40">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />				
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="1" />
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+
+    		<object height="40" image="resource//level3/level3_specialBlock.png" name="level3_specialBlock" originX="0" originY="0" width="40">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="0" />
+
+
+			</values>
+			<nodes drawObject="true" lineMode="1" limit="10"/>
+		</object>
+
+    		<object height="20" image="resource//level3/level3_specialPlatform.png" name="level3_specialPlatform" originX="0" originY="0" width="100">
+			<values>
+				<number name="speed" min="0" max="200" default="40" />
+				<number name="movementType" min="0" max="200" default="1" />
+				<number name="animated" min="0" max="200" default="0" />
+
+
+			</values>
+			<nodes drawObject="true"  lineMode="1" limit="10"/>
+		</object>
+
+
+		<object name="level3_spike0" image="resource/level3/level3_spike0.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="level3_spike1" image="resource/level3/level3_spike1.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="level3_spike2" image="resource/level3/level3_spike2.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+		<object name="level3_spike3" image="resource/level3/level3_spike3.png" width="10" height="10" originX="0" originY="0" resizableX="true" resizableY="true" tile="true"/>
+
+    		<object height="70" image="resource//level3/level3_desk1.png" name="level3_desk1" originX="0" originY="0" width="108"/>
+    		<object height="70" image="resource//level3/level3_desk2.png" name="level3_desk2" originX="0" originY="0" width="108"/>
+    		<object height="30" image="resource//level3/level3_desk3.png" name="level3_desk3" originX="0" originY="0" width="175"/>
+
+    		<object image="resource//level3/bookCase.png" name="bookCase" originX="0" originY="0" width="61" height="90">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object image="resource//level3/filingCab1.png" name="filingCab1" originX="0" originY="0" width="34" height="90">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object image="resource//level3/filingCab2.png" name="filingCab2" originX="0" originY="0" width="34" height="60">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+
+    		<object image="resource//level3/plant1.png" name="plant1" originX="0" originY="0" width="10" height="110">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object image="resource//level3/plant2.png" name="plant2" originX="0" originY="0" width="13" height="100">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+
+
+    		<object height="84" image="resource//level3/level3_painting1.png" name="level3_painting1" originX="0" originY="0" width="70">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="84" image="resource//level3/level3_painting2.png" name="level3_painting2" originX="0" originY="0" width="70">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="84" image="resource//level3/level3_painting3.png" name="level3_painting3" originX="0" originY="0" width="70">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+    		<object height="67" image="resource//level3/level3_salesChart.png" name="level3_salesChart" originX="0" originY="0" width="67" resizableX="true" resizableY="true" tile="true">
+			<values>
+				<number name="scrollFactor" min="0" max="3" default="0.2" />				
+			</values>
+		</object>
+
+
+		<object name="helpBox" image="resource/tutorial/helpBox.png" width="120" height="60" originX="0" originY="0">
+			<values>
+				<number name="type" min="0" max="200" default="0" />				
+				<string name="helpString" default="help" maxChars="400" />
+			</values>
+		</object>
+
+		<object name="andreCheckPoint" image="resource/pickups/andreCheckPoint.png" width="26" height="60" originX="0" originY="0">
+			<values>
+				<number name="player" min="1" max="2" default="1" />				
+			</values>
+		</object>
+
+		<object name="liselotCheckPoint" image="resource/pickups/liselotCheckPoint.png" width="26" height="60" originX="0" originY="0">
+			<values>
+				<number name="player" min="1" max="2" default="1" />				
+			</values>
+		</object>
+
+		<object name="heightChart" image="resource/char_standins/heightChart.png" width="100" height="180" originX="0" originY="0" limit="6"/>
+
+
+
+
+
+	</objects>
+	<layers>
+		<grid name="solids" gridSize="10" exportAsObjects="true" color="0xAA9e7365" />
+		<grid name="fakesolids" gridSize="10" exportAsObjects="true" color="0xAA9e7300" />
+		<objects name="extraPlatforms" gridSize="10" drawGridSize="10" />
+		<objects name="movingPlatforms" gridSize="10" drawGridSize="10" />
+		<objects name="BGLayer1" gridSize="10" drawGridSize="10" />
+		<objects name="BGLayer2" gridSize="10" drawGridSize="10" />
+		<objects name="BGLayer3" gridSize="10" drawGridSize="10" />
+		<objects name="objects" gridSize="1" drawGridSize="10" />
+		<objects name="characters" gridSize="10" drawGridSize="10" />
+		<objects name="FGLayer1" gridSize="1" drawGridSize="10" />
+
+
+	</layers>
+</project>

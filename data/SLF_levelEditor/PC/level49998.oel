@@ -1,0 +1,34 @@
+<level>
+  <width>520</width>
+  <height>390</height>
+  <solids>
+    <rect x="0" y="0" w="520" h="120"/>
+    <rect x="0" y="120" w="10" h="150"/>
+    <rect x="0" y="270" w="520" h="120"/>
+    <rect x="510" y="120" w="10" h="150"/>
+  </solids>
+  <BGLayer1>
+    <level2_greenPipe x="390" y="0" width="20" height="390" scrollFactor="0.2"/>
+    <level2_pipe1 x="0" y="120" width="520" height="70" scrollFactor="0.2"/>
+    <level2_tank x="350" y="190" scrollFactor="0.2"/>
+    <level2_MG2 x="0" y="110" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_greenPipe x="140" y="0" width="20" height="390" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level2_braceLeft x="10" y="120"/>
+    <level2_braceRight x="490" y="120"/>
+  </BGLayer3>
+  <characters>
+    <liselot x="270" y="230" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="300" y="220"/>
+    </liselot>
+    <player x="220" y="230" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="240" y="220"/>
+    </player>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="99" y="0" width="12" height="390" scrollFactor="0.2"/>
+  </FGLayer1>
+</level>

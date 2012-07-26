@@ -1,0 +1,6 @@
+# Ignore AIR created executables
+air/*
+
+# Ignore FlashDevelop executables
+bin/*
+obj/*

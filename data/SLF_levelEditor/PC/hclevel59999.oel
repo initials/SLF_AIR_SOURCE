@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<level>
+  
+  
+  
+  
+  <width>
+    
+    520
+  
+  </width>
+  
+  
+  
+  
+  <height>
+    
+    390
+  
+  </height>
+  
+  
+  
+  
+  <solids>
+    
+    
+    
+    
+    <rect h="20" w="510" x="0" y="0"/>
+    
+    
+    
+    
+    <rect h="360" w="10" x="0" y="20"/>
+    
+    
+    
+    
+    <rect h="160" w="500" x="10" y="220"/>
+    
+    
+    
+    
+    <rect h="200" w="10" x="500" y="20"/>
+    
+    
+  
+  
+  </solids>
+  
+  
+  
+  
+  <BGLayer1>
+    
+    
+    
+    
+    <level3_painting1 scrollFactor="0.2" x="20" y="100"/>
+    
+    
+    
+    
+    <level3_painting2 scrollFactor="0.2" x="310" y="100"/>
+    
+    
+    
+    
+    <level3_painting3 scrollFactor="0.2" x="390" y="100"/>
+    
+    
+  
+  
+  </BGLayer1>
+  
+  
+  
+  
+  <BGLayer2>
+    
+    
+    
+    
+    <bookCase scrollFactor="0.2" x="20" y="130"/>
+    
+    
+    
+    
+    <filingCab2 scrollFactor="0.2" x="430" y="160"/>
+    
+    
+  
+  
+  </BGLayer2>
+  
+  
+  
+  
+  <BGLayer3>
+    
+    
+    
+    
+    <level3_desk1 x="70" y="150"/>
+    
+    
+    
+    
+    <level3_desk2 x="300" y="150"/>
+    
+    
+    
+    
+    <plant1 scrollFactor="0.2" x="190" y="110"/>
+    
+    
+    
+    
+    <plant2 scrollFactor="0.2" x="410" y="120"/>
+    
+    
+  
+  
+  </BGLayer3>
+  
+  
+  
+  
+  <characters>
+    
+    
+    
+    
+    <player andreInitialFlip="0" followHeight="0" followWidth="0" levelName="new level" liselotInitialFlip="1" movementType="1" speed="40" startsFirst="1" x="210" y="180">
+      
+      
+      
+      
+      <node x="240" y="170"/>
+      
+      
+    
+    
+    </player>
+    
+    
+    
+    
+    <liselot movementType="1" speed="40" x="260" y="180">
+      
+      
+      
+      
+      <node x="330" y="170"/>
+      
+      
+    
+    
+    </liselot>
+    
+    
+  
+  
+  </characters>
+  
+  
+
+
+</level>

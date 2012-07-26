@@ -1,0 +1,67 @@
+<level>
+  <width>2400</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="0" w="110" h="80"/>
+    <rect x="0" y="310" w="1140" h="190"/>
+    <rect x="120" y="0" w="160" h="40"/>
+    <rect x="120" y="50" w="160" h="30"/>
+    <rect x="290" y="0" w="150" h="40"/>
+    <rect x="290" y="40" w="90" h="20"/>
+    <rect x="290" y="70" w="90" h="20"/>
+    <rect x="390" y="50" w="200" h="40"/>
+    <rect x="450" y="0" w="80" h="40"/>
+    <rect x="540" y="0" w="160" h="40"/>
+    <rect x="600" y="40" w="100" h="20"/>
+    <rect x="600" y="70" w="100" h="20"/>
+    <rect x="710" y="0" w="140" h="80"/>
+    <rect x="1140" y="390" w="320" h="110"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="1480" y="330"/>
+  </extraPlatforms>
+  <BGLayer1>
+    <level1_windows x="0" y="110" width="960" height="54" scrollFactor="0.1"/>
+    <L1_Shelf x="10" y="0" scrollFactor="0.2"/>
+    <L1_Shelf x="250" y="0" scrollFactor="0.2"/>
+    <L1_Shelf x="490" y="0" scrollFactor="0.2"/>
+    <L1_Shelf x="720" y="0" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level1_shelfTile x="990" y="150" width="240" height="240" scrollFactor="0.6"/>
+    <cratesBox x="480" y="130" scrollFactor="0.7"/>
+    <sugarBagsAndCrates x="0" y="180" scrollFactor="0.6"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="950" y="350" scrollFactor="0.2"/>
+    <sodaPack x="700" y="290" scrollFactor="0.2"/>
+    <palettes x="570" y="270" scrollFactor="1"/>
+  </BGLayer3>
+  <objects>
+    <exit x="2354" y="179" nextLevel="2"/>
+    <L1_SmallCrate x="1511" y="235" width="32"/>
+  </objects>
+  <characters>
+    <player x="150" y="270" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="180" y="270"/>
+    </player>
+    <liselot x="170" y="270" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="200" y="270"/>
+    </liselot>
+    <worker x="410" y="270" speed="40" movementType="1" talkString="Grumble.">
+      <node x="460" y="270"/>
+    </worker>
+    <army x="290" y="270" speed="40" movementType="1" talkString="Attention.">
+      <node x="340" y="270"/>
+    </army>
+    <chef x="370" y="270" speed="40" movementType="1" talkString="Hey buddy.">
+      <node x="440" y="270"/>
+    </chef>
+    <inspector x="330" y="270" speed="40" movementType="1" talkString="Paperwork.">
+      <node x="370" y="270"/>
+    </inspector>
+  </characters>
+  <FGLayer1>
+    <L1_Shelf x="1494" y="70" scrollFactor="2"/>
+  </FGLayer1>
+</level>

@@ -1,0 +1,33 @@
+<level>
+  <width>520</width>
+  <height>390</height>
+  <solids>
+    <rect x="0" y="0" w="520" h="120"/>
+    <rect x="0" y="120" w="10" h="150"/>
+    <rect x="0" y="270" w="520" h="120"/>
+    <rect x="510" y="120" w="10" h="150"/>
+  </solids>
+  <BGLayer1>
+    <level3_painting1 x="50" y="150" scrollFactor="0.2"/>
+    <level3_painting2 x="310" y="150" scrollFactor="0.2"/>
+    <level3_painting3 x="390" y="150" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <bookCase x="20" y="180" scrollFactor="0.2"/>
+    <filingCab2 x="430" y="210" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level3_desk1 x="70" y="200"/>
+    <level3_desk2 x="300" y="200"/>
+    <plant1 x="190" y="160" scrollFactor="0.2"/>
+    <plant2 x="410" y="170" scrollFactor="0.2"/>
+  </BGLayer3>
+  <characters>
+    <player x="220" y="230" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="250" y="220"/>
+    </player>
+    <liselot x="260" y="230" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="290" y="220"/>
+    </liselot>
+  </characters>
+</level>

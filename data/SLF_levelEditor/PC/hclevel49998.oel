@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<level>
+  
+  
+  
+  
+  <width>
+    
+    480
+  
+  </width>
+  
+  
+  
+  
+  <height>
+    
+    320
+  
+  </height>
+  
+  
+  
+  
+  <solids>
+    
+    
+    
+    
+    <rect h="20" w="480" x="0" y="0"/>
+    
+    
+    
+    
+    <rect h="300" w="10" x="0" y="20"/>
+    
+    
+    
+    
+    <rect h="100" w="470" x="10" y="220"/>
+    
+    
+    
+    
+    <rect h="200" w="10" x="470" y="20"/>
+    
+    
+  
+  
+  </solids>
+  
+  
+  
+  
+  <BGLayer1>
+    
+    
+    
+    
+    <level2_greenPipe height="300" scrollFactor="0.2" width="20" x="390" y="0"/>
+    
+    
+    
+    
+    <level2_pipe1 height="70" scrollFactor="0.2" width="480" x="0" y="70"/>
+    
+    
+    
+    
+    <level2_tank scrollFactor="0.2" x="350" y="40"/>
+    
+    
+    
+    
+    <level2_MG2 scrollFactor="0.2" x="0" y="50"/>
+    
+    
+  
+  
+  </BGLayer1>
+  
+  
+  
+  
+  <BGLayer3>
+    
+    
+    
+    
+    <level2_braceLeft x="10" y="20"/>
+    
+    
+    
+    
+    <level2_braceRight x="450" y="20"/>
+    
+    
+  
+  
+  </BGLayer3>
+  
+  
+  
+  
+  <characters>
+    
+    
+    
+    
+    <player andreInitialFlip="0" followHeight="0" followWidth="0" levelName="new level" liselotInitialFlip="1" movementType="1" speed="40" startsFirst="1" x="210" y="180">
+      
+      
+      
+      
+      <node x="240" y="170"/>
+      
+      
+    
+    
+    </player>
+    
+    
+    
+    
+    <liselot movementType="1" speed="40" x="260" y="180">
+      
+      
+      
+      
+      <node x="330" y="170"/>
+      
+      
+    
+    
+    </liselot>
+    
+    
+  
+  
+  </characters>
+  
+  
+  
+  
+  <FGLayer1>
+    
+    
+    
+    
+    <level2_chainTile height="320" scrollFactor="0.2" width="12" x="99" y="0"/>
+    
+    
+  
+  
+  </FGLayer1>
+  
+  
+
+
+</level>

@@ -1,0 +1,29 @@
+<level>
+  <width>520</width>
+  <height>390</height>
+  <solids>
+    <rect x="0" y="0" w="520" h="120"/>
+    <rect x="0" y="120" w="10" h="150"/>
+    <rect x="0" y="270" w="520" h="120"/>
+    <rect x="510" y="120" w="10" h="150"/>
+  </solids>
+  <BGLayer1>
+    <level1_shelfTile x="10" y="110" width="160" height="160" scrollFactor="0.2"/>
+    <level1_windows x="200" y="160" width="180" height="54" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBagsAndCrates x="340" y="140" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <palettes x="110" y="230" scrollFactor="0.2"/>
+    <sodaPack x="60" y="250" scrollFactor="0.2"/>
+  </BGLayer3>
+  <characters>
+    <player x="200" y="230" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="240" y="220"/>
+    </player>
+    <liselot x="250" y="230" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="280" y="220"/>
+    </liselot>
+  </characters>
+</level>

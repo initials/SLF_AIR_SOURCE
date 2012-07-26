@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<level>
+  
+  
+  
+  
+  <width>
+    
+    2400
+  
+  </width>
+  
+  
+  
+  
+  <height>
+    
+    500
+  
+  </height>
+  
+  
+  
+  
+  <solids>
+    
+    
+    
+    
+    <rect h="110" w="2400" x="0" y="390"/>
+    
+    
+    
+    
+    <rect h="120" w="1420" x="980" y="270"/>
+    
+    
+  
+  
+  </solids>
+  
+  
+  
+  
+  <extraPlatforms>
+    
+    
+    
+    
+    <level3_specialBlock animated="0" movementType="1" speed="40" x="940" y="270"/>
+    
+    
+  
+  
+  </extraPlatforms>
+  
+  
+  
+  
+  <movingPlatforms>
+    
+    
+    
+    
+    <level3_specialPlatformSmall animated="1" movementType="1" speed="80" x="900" y="270">
+      
+      
+      
+      
+      <node x="900" y="370"/>
+      
+      
+    
+    
+    </level3_specialPlatformSmall>
+    
+    
+  
+  
+  </movingPlatforms>
+  
+  
+  
+  
+  <BGLayer1>
+    
+    
+    
+    
+    <level3_window height="320" scrollFactor="0.2" width="320" x="0" y="30"/>
+    
+    
+    
+    
+    <level3_painting1 scrollFactor="0.2" x="360" y="210"/>
+    
+    
+    
+    
+    <level3_painting2 scrollFactor="0.2" x="440" y="190"/>
+    
+    
+    
+    
+    <level3_painting3 scrollFactor="0.2" x="520" y="170"/>
+    
+    
+    
+    
+    <level3_window height="320" scrollFactor="0.2" width="320" x="640" y="0"/>
+    
+    
+  
+  
+  </BGLayer1>
+  
+  
+  
+  
+  <BGLayer3>
+    
+    
+    
+    
+    <sodaPack scrollFactor="0.2" x="1070" y="250"/>
+    
+    
+    
+    
+    <level3_desk1 x="720" y="320"/>
+    
+    
+    
+    
+    <level3_desk2 x="430" y="320"/>
+    
+    
+    
+    
+    <palettes scrollFactor="0.2" x="1170" y="230"/>
+    
+    
+    
+    
+    <sugarBags scrollFactor="0.2" x="580" y="350"/>
+    
+    
+  
+  
+  </BGLayer3>
+  
+  
+  
+  
+  <objects>
+    
+    
+    
+    
+    <exit x="2354" y="179"/>
+    
+    
+  
+  
+  </objects>
+  
+  
+  
+  
+  <characters>
+    
+    
+    
+    
+    <player levelName="new level" movementType="1" speed="40" startsFirst="1" x="120" y="350">
+      
+      
+      
+      
+      <node x="210" y="340"/>
+      
+      
+    
+    
+    </player>
+    
+    
+    
+    
+    <liselot movementType="1" speed="40" x="1280" y="230">
+      
+      
+      
+      
+      <node x="1350" y="210"/>
+      
+      
+    
+    
+    </liselot>
+    
+    
+  
+  
+  </characters>
+  
+  
+
+
+</level>

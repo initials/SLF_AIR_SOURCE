@@ -1,0 +1,57 @@
+<level>
+  <width>1000</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="0" w="60" h="60"/>
+    <rect x="0" y="70" w="120" h="30"/>
+    <rect x="0" y="310" w="1000" h="190"/>
+    <rect x="70" y="0" w="50" h="60"/>
+    <rect x="130" y="0" w="150" h="100"/>
+    <rect x="150" y="100" w="110" h="20"/>
+    <rect x="290" y="0" w="160" h="30"/>
+    <rect x="290" y="40" w="80" h="60"/>
+    <rect x="380" y="40" w="70" h="60"/>
+    <rect x="460" y="0" w="220" h="110"/>
+  </solids>
+  <BGLayer1>
+    <level2_window x="100" y="140" width="200" height="50" scrollFactor="0.1"/>
+    <level2_metalPipe x="50" y="0" width="30" height="500" scrollFactor="0.2"/>
+    <level2_greenPipe x="170" y="0" width="20" height="500" scrollFactor="0.2"/>
+    <level2_tank x="130" y="190" scrollFactor="0.2"/>
+    <level2_pipe1 x="200" y="200" width="1320" height="70" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_greenPipe x="380" y="0" width="20" height="500" scrollFactor="0.6"/>
+    <level2_tank x="340" y="50" scrollFactor="0.6"/>
+    <level2_pipe1 x="410" y="80" width="1460" height="70" scrollFactor="0.6"/>
+    <level2_FMG3 x="910" y="30" scrollFactor="0.7"/>
+    <level2_metalPipe x="740" y="0" width="30" height="500" scrollFactor="0.75"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level2_braceRight x="130" y="100"/>
+    <level2_braceLeft x="260" y="100"/>
+  </BGLayer3>
+  <characters>
+    <player x="150" y="270" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="180" y="270"/>
+    </player>
+    <liselot x="170" y="270" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="200" y="270"/>
+    </liselot>
+    <worker x="410" y="270" speed="40" movementType="1" talkString="Grumble.">
+      <node x="460" y="270"/>
+    </worker>
+    <army x="290" y="270" speed="40" movementType="1" talkString="Attention.">
+      <node x="340" y="270"/>
+    </army>
+    <chef x="370" y="270" speed="40" movementType="1" talkString="Hey buddy.">
+      <node x="440" y="270"/>
+    </chef>
+    <inspector x="330" y="270" speed="40" movementType="1" talkString="Paperwork.">
+      <node x="370" y="270"/>
+    </inspector>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="679" y="1" width="12" height="499" scrollFactor="1.9"/>
+  </FGLayer1>
+</level>

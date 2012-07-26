@@ -1,0 +1,48 @@
+<level>
+  <width>1000</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="0" w="110" h="70"/>
+    <rect x="0" y="80" w="110" h="30"/>
+    <rect x="0" y="310" w="1000" h="190"/>
+    <rect x="120" y="0" w="90" h="90"/>
+    <rect x="220" y="0" w="70" h="70"/>
+    <rect x="300" y="0" w="220" h="100"/>
+    <rect x="530" y="0" w="350" h="50"/>
+    <rect x="530" y="60" w="350" h="50"/>
+    <rect x="890" y="0" w="110" h="100"/>
+  </solids>
+  <BGLayer1>
+    <level3_window x="0" y="30" width="320" height="320" scrollFactor="0.2"/>
+    <level3_painting1 x="360" y="210" scrollFactor="0.2"/>
+    <level3_painting2 x="440" y="190" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <bookCase x="10" y="220" scrollFactor="0.2"/>
+    <filingCab2 x="80" y="250" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level3_desk2 x="120" y="240"/>
+    <level3_desk1 x="500" y="240"/>
+  </BGLayer3>
+  <characters>
+    <player x="150" y="270" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="180" y="270"/>
+    </player>
+    <liselot x="170" y="270" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="200" y="270"/>
+    </liselot>
+    <worker x="410" y="270" speed="40" movementType="1" talkString="Grumble.">
+      <node x="460" y="270"/>
+    </worker>
+    <army x="290" y="270" speed="40" movementType="1" talkString="Attention.">
+      <node x="340" y="270"/>
+    </army>
+    <chef x="370" y="270" speed="40" movementType="1" talkString="Hey buddy.">
+      <node x="440" y="270"/>
+    </chef>
+    <inspector x="330" y="270" speed="40" movementType="1" talkString="Paperwork.">
+      <node x="370" y="270"/>
+    </inspector>
+  </characters>
+</level>

@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<level>
+  
+  
+  <width>
+    1200
+  </width>
+  
+  
+  <height>
+    1000
+  </height>
+  
+  
+  <solids>
+    
+    
+    <rect h="30" w="1200" x="0" y="0"/>
+    
+    
+    <rect h="970" w="10" x="0" y="30"/>
+    
+    
+    <rect h="30" w="300" x="10" y="460"/>
+    
+    
+    <rect h="360" w="940" x="10" y="640"/>
+    
+    
+    <rect h="80" w="440" x="110" y="260"/>
+    
+    
+    <rect h="230" w="130" x="280" y="30"/>
+    
+    
+    <rect h="180" w="140" x="360" y="400"/>
+    
+    
+    <rect h="70" w="160" x="500" y="510"/>
+    
+    
+    <rect h="150" w="30" x="540" y="30"/>
+    
+    
+    <rect h="40" w="190" x="570" y="140"/>
+    
+    
+    <rect h="250" w="60" x="600" y="260"/>
+    
+    
+    <rect h="60" w="130" x="670" y="190"/>
+    
+    
+    <rect h="150" w="220" x="720" y="400"/>
+    
+    
+    <rect h="20" w="70" x="800" y="30"/>
+    
+    
+    <rect h="60" w="100" x="840" y="230"/>
+    
+    
+    <rect h="300" w="250" x="950" y="700"/>
+    
+    
+    <rect h="470" w="70" x="1000" y="230"/>
+    
+    
+    <rect h="60" w="130" x="1070" y="640"/>
+    
+    
+    <rect h="20" w="30" x="1080" y="290"/>
+    
+    
+    <rect h="20" w="30" x="1080" y="430"/>
+    
+    
+    <rect h="20" w="30" x="1080" y="570"/>
+    
+    
+    <rect h="20" w="30" x="1150" y="360"/>
+    
+    
+    <rect h="20" w="30" x="1150" y="510"/>
+    
+    
+    <rect h="610" w="10" x="1190" y="30"/>
+    
+  
+  </solids>
+  
+  
+  <extraPlatforms>
+    
+    
+    <LargeCrate x="400" y="340"/>
+    
+    
+    <level2_spike2 height="10" width="50" x="110" y="340"/>
+    
+    
+    <level2_spike0 height="10" width="60" x="600" y="250"/>
+    
+    
+    <level2_spike2 height="10" width="110" x="690" y="30"/>
+    
+    
+    <level2_spike2 height="10" width="120" x="870" y="30"/>
+    
+    
+    <level2_spike2 height="10" width="70" x="800" y="50"/>
+    
+    
+    <LargeCrate x="380" y="580"/>
+    
+    
+    <level2_spike1 height="60" width="10" x="940" y="230"/>
+    
+    
+    <level2_spike1 height="150" width="10" x="940" y="400"/>
+    
+    
+    <level2_spike3 height="320" width="10" x="990" y="230"/>
+    
+  
+  </extraPlatforms>
+  
+  
+  <movingPlatforms>
+    
+    
+    <level2_specialBlock animated="0" movementType="5" speed="120" x="950" y="230">
+      
+      
+      <node x="950" y="640"/>
+      
+    
+    </level2_specialBlock>
+    
+  
+  </movingPlatforms>
+  
+  
+  <BGLayer1>
+    
+    
+    <level2_FMG3 scrollFactor="0.2" x="20" y="520"/>
+    
+    
+    <level2_FMG3 scrollFactor="0.2" x="10" y="20"/>
+    
+    
+    <level2_MG2 scrollFactor="0.2" x="0" y="170"/>
+    
+    
+    <level2_MG2 scrollFactor="0.2" x="0" y="670"/>
+    
+    
+    <level2_metalPipe height="1000" scrollFactor="0.3" width="30" x="160" y="0"/>
+    
+    
+    <level2_metalPipe height="1000" scrollFactor="0.4" width="30" x="440" y="0"/>
+    
+  
+  </BGLayer1>
+  
+  
+  <BGLayer2>
+    
+    
+    <level2_greenPipe height="600" scrollFactor="0.5" width="20" x="250" y="0"/>
+    
+    
+    <level2_greenPipe height="1000" scrollFactor="0.7" width="20" x="500" y="0"/>
+    
+    
+    <level2_tank scrollFactor="0.5" x="210" y="600"/>
+    
+    
+    <level2_tank scrollFactor="0.7" x="460" y="460"/>
+    
+    
+    <level2_pipe1 height="70" scrollFactor="0.5" width="720" x="280" y="630"/>
+    
+    
+    <level2_pipe1 height="70" scrollFactor="0.7" width="470" x="520" y="490"/>
+    
+    
+    <level2_tank scrollFactor="0.7" x="460" y="170"/>
+    
+    
+    <level2_tank scrollFactor="0.5" x="210" y="50"/>
+    
+  
+  </BGLayer2>
+  
+  
+  <BGLayer3>
+    
+    
+    <level2_braceLeft x="10" y="30"/>
+    
+    
+    <level2_braceRight x="260" y="30"/>
+    
+    
+    <level2_braceRight x="520" y="30"/>
+    
+    
+    <level2_braceLeft x="410" y="30"/>
+    
+    
+    <sugarBags scrollFactor="0.2" x="780" y="360"/>
+    
+    
+    <sugarBags scrollFactor="0.2" x="720" y="600"/>
+    
+    
+    <sodaPack scrollFactor="0.2" x="100" y="620"/>
+    
+    
+    <sodaPack scrollFactor="0.2" x="30" y="440"/>
+    
+    
+    <sodaPack scrollFactor="0.2" x="130" y="240"/>
+    
+    
+    <palettes scrollFactor="0.2" x="850" y="190"/>
+    
+    
+    <palettes scrollFactor="0.2" x="530" y="600"/>
+    
+  
+  </BGLayer3>
+  
+  
+  <objects>
+    
+    
+    <exit nextLevel="2" x="585" y="51"/>
+    
+    
+    <smallSugarBag width="22" x="679" y="423"/>
+    
+    
+    <Bottle width="12" x="1123" y="606"/>
+    
+  
+  </objects>
+  
+  
+  <characters>
+    
+    
+    <liselot movementType="1" speed="40" talkString="Just say yes." x="420" y="210">
+      
+      
+      <node x="420" y="210"/>
+      
+    
+    </liselot>
+    
+    
+    <player andreInitialFlip="1" followHeight="0" followWidth="0" levelName="Son, You're Still Young" liselotInitialFlip="0" movementType="1" speed="40" startsFirst="1" talkString="This guy on the street comes up to me and says hey buddy. I didn't know who he was." x="260" y="210">
+      
+      
+      <node x="260" y="210"/>
+      
+    
+    </player>
+    
+    
+    <army movementType="1" speed="80" talkString="An active military base gives back to the community." x="10" y="590">
+      
+      
+      <node x="920" y="590"/>
+      
+    
+    </army>
+    
+  
+  </characters>
+  
+  
+  <FGLayer1>
+    
+    
+    <level2_chainTile height="1000" scrollFactor="1.5" width="12" x="350" y="0"/>
+    
+  
+  </FGLayer1>
+  
+
+</level>
