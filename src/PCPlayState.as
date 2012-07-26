@@ -344,7 +344,7 @@ package
 					if (Registry.levelNumber <= 11)
 						Registry.levelNumber++;
 					else if (Registry.levelType == 3 && Registry.hardCore) {
-						FlxG.switchState(new PrizeState);	
+						FlxG.switchState(new PCCinematicState);	
 						
 						return;							
 					}	

@@ -32,7 +32,7 @@ package
 
 	public class PCCinematicState extends FlxState
 	{
-		[Embed(source="../data/C64.ttf",fontFamily="commodore",embedAsCFF="false")] protected var c64:String;
+		[Embed(source="org/flixel/data/nokiafc22.ttf",fontFamily="commodore",embedAsCFF="false")] protected var c64:String;
 		
 		[Embed(source = '../data/sfxVoice128/notepad0.mp3')] private var SndNotePad0:Class;
 		[Embed(source = '../data/sfxVoice128/notepad1.mp3')] private var SndNotePad1:Class;

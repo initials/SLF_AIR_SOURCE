@@ -29,7 +29,7 @@ package
 
         public class Registry
         {
-			[Embed(source="../data/C64.ttf",fontFamily="commodore",embedAsCFF="false")] protected var c64:String;
+			[Embed(source="org/flixel/data/nokiafc22.ttf",fontFamily="commodore",embedAsCFF="false")] protected var c64:String;
 			
 			[Embed(source = "../data/logo.png")] public static  var ImgLogo:Class;
 			[Embed(source = "../data/illustration/andre_drawing.png")] public static  var ImgAndre:Class;

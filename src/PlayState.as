@@ -40,7 +40,7 @@ package
 		
 		[Embed(source = '../data/SLF_levelEditor/level21.oel', mimeType = 'application/octet-stream')] private var Level2:Class;
 		[Embed(source = '../data/SLF_levelEditor/level3.oel', mimeType = 'application/octet-stream')] private var Level3:Class;
-		[Embed(source="../data/C64.ttf",fontFamily="commodore",embedAsCFF="false")] protected var c64:String;
+		[Embed(source="org/flixel/data/nokiafc22.ttf",fontFamily="commodore",embedAsCFF="false")] protected var c64:String;
 
 		
 		[Embed(source = "../data/conveyorBeltBlockWithEnds.png")] private var ImgConveyorBelt:Class;
