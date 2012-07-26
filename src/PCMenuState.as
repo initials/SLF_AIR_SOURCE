@@ -380,10 +380,6 @@ package
 				headingTxt.text = "--DEMO MODE--\n" + headingTxt.text;
 			}
 			
-/*			loader = new URLLoader;
-			loader.load( new URLRequest( "http://superlemonadefactory.initialsgames.com/log.xml" ) );
-			loader.addEventListener( Event.COMPLETE, onLoaded );
-			loader.addEventListener( IOErrorEvent.IO_ERROR, loadError );*/
 			
 			//Get the version number
 			var xml : XML = NativeApplication.nativeApplication.applicationDescriptor;
